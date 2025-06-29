@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~UicwjTSD#wA8PdjwLjRnMFKg2rsFyVlqwoi-gPOKNG6OFqdN_FJI",
+SESSION_ID: process.env.SESSION_ID || "malvin~si0wXZzL#A5p5vtzt1UQ4yY2gQ3MdbA7qwBDWIbg9h0d751E47qQ",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -68,7 +68,7 @@ LINK_WHITELIST: "youtube.com,github.com",
           DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 
-          OWNER_NUMBER: process.env.OWNER_NUMBER || "254716531396",
+          OWNER_NUMBER: process.env.OWNER_NUMBER || "263780934873",
 // add your bot owner number
 
 OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴋɪɴɢ",
@@ -77,7 +77,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴋɪɴɢ",
               DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ*",
 // add bot owner name    
 
-        READ_MESSAGE: process.env.READ_MESSAGE || "false",
+        READ_MESSAGE: process.env.READ_MESSAGE || "true",
 // Turn true or false for automatic read msgs
 
                  AUTO_REACT: process.env.AUTO_REACT || "false",
